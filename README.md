@@ -1,27 +1,3 @@
-Unlimited Attempts Allowed
-For the individual assignment, students will analyse how sentiment scores from companies’ ECCs affect the stock market. Each student has been assigned a set of companies for their analysis, please refer to the shared folder in the JupyterHub. 
-
- 
-
-Required:
-
-Using Python, extract the text in the assigned transcripts stored in the JSON format and calculate sentiment scores based on Loughran & McDonald (2011) using the provided dictionary for a financial setting.
-Use Cumulative Abnormal Return (CAR) as your dependent variable, calculated using the Event Study tool in WRDS. You may choose your own event window (e.g., CAR(−1,+1), CAR(0,+2), etc.) but you must justify your choice. Analyze how your selected sentiment measure(s) affect this CAR. Include suitable control variables to account for other factors influencing market reactions,  one required control is stock price volatility, while the remaining control variables are of your choice but must be clearly defined and theoretically motivated.
-Make sure to select at least two control variables for your regression(s) that have not been demonstrated in this course. All control variables must be defined and justified.  
-Prepare a report discussing the results and your interpretation to be submitted in Canvas. Hint: Use the report to discuss your findings as opposed to describing the coding process etc.
- 
-
-You may refer to Taraj et al. (2025), “Earnings Conference Calls and Information Asymmetry Among Investors: The Effect of Heterogeneity in Analyst Questions” or Taraj et al. (2025) "Environmental Transparency in Earnings Calls and Its Impact on Cost of Capital" as inspiration for how to present regression tables, figures, charts and discuss the rationale behind variable selection and control design.
-
-
-
-
-# 📊 Earnings Conference Call Sentiment Analysis
-
-**Author:**  Soryanejad  
-**Course:** Individual Assignment - Financial Data Analysis  
-**Date:** October 2025  
-
 ## 🎯 Project Overview
 
 This repository contains a comprehensive analysis of how sentiment expressed in earnings conference calls affects stock market returns. Using the Loughran & McDonald (2011) financial sentiment dictionary, **real market capitalization data from Yahoo Finance**, **spaCy NLP processing**, and event study methodology, we examine whether linguistic tone in corporate communications predicts cumulative abnormal returns (CAR).
