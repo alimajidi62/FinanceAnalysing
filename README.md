@@ -1,5 +1,6 @@
 ## 🎯 Project Overview
 **Author:** Elham Soryanejad 
+### 🔍 Research Question
 This repository contains a comprehensive analysis of how sentiment expressed in earnings conference calls affects stock market returns. Using the Loughran & McDonald (2011) financial sentiment dictionary, **real market capitalization data from Yahoo Finance**, **spaCy NLP processing**, and event study methodology, we examine whether linguistic tone in corporate communications predicts cumulative abnormal returns (CAR).
 <img width="4<img width="4176" height="3213" alt="Company_Dashboard_01_MSFT_Technology" src="https://github.com/user-attachments/assets/7cc9ed29-a3a7-4127-b4e2-291d0b9855bb" />
 770" height="3566" alt="Company_Analysis_Summary" src="https://github.com/user-attachments/assets/4b59ead2-3490-4b56-bbff-e623cbdb46a8" />
