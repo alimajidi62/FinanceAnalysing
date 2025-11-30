@@ -1,0 +1,36 @@
+
+METHODOLOGY SUMMARY
+==================
+
+1. DATA COLLECTION
+   • Collected earnings conference call transcripts for 60 companies (Group 7)
+   • Time period: 2005-2021 
+   • Source: Pickle files with structured transcript data
+   • Total transcripts: 4,373 earnings calls
+
+2. EVENT STUDY SETUP
+   • Event window: CAR(-1,+1) - three days around earnings announcement
+   • Market model estimation: 252 trading days ending 46 days before event
+   • Data source: CRSP via WRDS Event Study tool
+   • Benchmark: Value-weighted market return
+
+3. SENTIMENT ANALYSIS
+   • Dictionary: Loughran & McDonald (2011) financial sentiment lexicon
+   • Word categories: Negative (2,345), Positive (347), Uncertainty (297)
+   • Text processing: Separate analysis for management and analyst sections
+   • Measures: Sentiment ratios (negative/total, positive/total, uncertainty/total)
+
+4. CONTROL VARIABLES
+   • Volatility: Combined measure from CAR statistics and R-squared
+   • Firm size: Log transformation of PERMNO as proxy
+   • Temporal controls: Financial crisis (2008-2009), COVID period (2020-2021)
+   • Industry controls: Technology, Financial, Healthcare sector dummies
+   • Past performance: Historical CAR measures where available
+
+5. REGRESSION ANALYSIS
+   • Model: OLS with robust standard errors (HC3)
+   • Dependent variable: CAR(-1,+1)
+   • Key independent variables: Sentiment ratios (negative, positive, uncertainty)
+   • Statistical tests: F-tests, residual diagnostics, multicollinearity checks
+   • Robustness: Separate management/analyst sentiment, sentiment polarity measures
+        
